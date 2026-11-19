@@ -113,8 +113,17 @@ h1 {
     font-size: 40px;
 }
 
-h2 {}
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
 
 /* STEP 5 ▸ a gradient on .hero */
+.hero {
+    background: linear-gradient(135deg, var(--dark), var(--primary));
+}
 
 /* STEP 6 ▸ text you can read on it */
